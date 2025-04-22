@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">مسجل الصوت</string>
+    <string name="record_and_change_effect">تسجيل وتغيير تأثير</string>
+    <string name="text_speech_to_text">خطاب النص</string>
+    <string name="text_sound_effect">تأثير الصوت</string>
+    <string name="text_soon">قريباً</string>
+    <string name="voice_recorder">مسجل الصوت</string>
+    <string name="text_my_recording">تسجيل بلدي</string>
+    <string name="see_all">انظر كل شيء</string>
+    <string name="select_file">حدد الملف</string>
+    <string name="audio_tab">صوتي</string>
+    <string name="video_tab">فيديو</string>
+    <string name="no_recording">لا تسجيل</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <color name="color_adb2c0">#adb2c0</color>
+    <string name="start_recorder">بدء المسجل</string>
+
+    <string name="dialog_message_allow_access_music_audio">اسمح للتطبيق بالوصول<b> الموسيقى والصوت</b> لحفظ التسجيل الخاص بك.</string>
+    <string name="dialog_message_read_video_permission">اسمح للتطبيق بالوصول<b> فيديو</b> لعرض وتطبيق التأثير.</string>
+    <string name="dialog_message_notification_permission">تمكين التطبيق<b> إشعار</b> للتسجيل المستمر أثناء إغلاق التطبيق.</string>
+
+    <string name="confirm">يسمح</string>
+    <string name="decline">لا تسمح</string>
+    <string name="done">منتهي</string>
+    <string name="cancel">يلغي</string>
+    <string name="play_or_pause_recording">تشغيل أو توقف التسجيل</string>
+    <string name="tap_to_start">اضغط على البدء</string>
+    <string name="language">لغة</string>
+    <string name="language_china">中国人</string>
+    <string name="language_english">إنجليزي</string>
+    <string name="language_filipina">فلبينية</string>
+    <string name="language_french">لا فرنسا</string>
+    <string name="language_hindi">हिन</string>
+    <string name="language_indo">بهاسا إندونيسيا</string>
+    <string name="language_italia">إيطالي</string>
+    <string name="language_japan">日本</string>
+    <string name="language_korean">한국인</string>
+    <string name="language_malaysia">ماليزيا</string>
+    <string name="language_nederlands">Nederlands</string>
+    <string name="language_portuguese">البرتغالية</string>
+    <string name="language_rusian">рсتمر</string>
+    <string name="language_spanish">español</string>
+    <string name="languages">اللغات</string>
+    <string name="text_description_speech_to_text">يظهر النص المستخرج من ملف الصوت هنا.</string>
+    <string name="speech_to_text">خطاب النص</string>
+    <string name="text_apply">يتقدم</string>
+    <string name="text_select_language">حدد اللغة</string>
+    <string name="dialog_message_microphone_permission">لا يمكنك تسجيل ما إذا لم يتم منح الوصول إلى الميكروفون. الرجاء منح هذا الإذن.</string>
+    <string name="not_allow">لا تسمح</string>
+    <string name="allow">يسمح</string>
+    <string name="speech_not_supported">التعرف على الكلام غير مدعوم على هذا الجهاز</string>
+    <string name="speech_prompt">خطاب النص</string>
+    <string name="delete_record">حذف السجل</string>
+    <string name="delete_record_description">سيتم فقد جميع بيانات التسجيل الخاصة بك</string>
+    <string name="ok">نعم</string>
+    <string name="text_preview">معاينة</string>
+    <string name="save">يحفظ</string>
+    <string name="copy_successful">نسخ ناجحة</string>
+    <string name="something_went_wrong">حدث خطأ ما</string>
+    <string name="rename">إعادة تسمية</string>
+    <string name="empty_file_name">اسم الملف الفارغ</string>
+    <string name="exit_the_feature">الخروج من الميزة؟</string>
+    <string name="close_record_description">سيتم فقد التسجيل تمامًا عند الخروج من الميزة. هل أنت متأكد؟</string>
+    <string name="exit">مخرج</string>
+    <string name="add_effect">أضف التأثير</string>
+    <string name="recording">تسجيل</string>
+    <string name="share">يشارك</string>
+    <string name="create_new_up">إنشاء جديد</string>
+    <string name="save_success_title">حفظ النجاح</string>
+    <string name="preview_audio">معاينة الصوت</string>
+    <string name="cut_file">قطع الملف</string>
+    <string name="delete">يمسح</string>
+    <string name="settings">إعدادات</string>
+    <string name="premium">غالي</string>
+    <string name="unlock_all_sound_effects">فتح جميع المؤثرات الصوتية</string>
+    <string name="remove_all_ads">إزالة جميع الإعلانات</string>
+    <string name="save_files_in_hd_quality">حفظ الملفات بجودة HD</string>
+    <string name="update_to_premium">تحديث إلى قسط</string>
+    <string name="cancel_subscription">إلغاء الاشتراك</string>
+    <string name="recording_format">تنسيق التسجيل</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="privacy_policy">سياسة</string>
+    <string name="feedback">تعليق</string>
+    <string name="about">عن</string>
+    <string name="recording_format_pcm">PCM (WAV) - جودة عالية</string>
+    <string name="pcm_short">واف</string>
+    <string name="mp3_short">MP3</string>
+    <string name="recording_format_mp3">MP3 - نوعية جيدة</string>
+    <string name="amr_short">عمر</string>
+    <string name="recording_format_amr">AMR (AMR) - ملفات صغيرة</string>
+    <string name="aac_short">M4A</string>
+    <string name="recording_format_aac">AAC (M4A) - نوعية جيدة</string>
+    <string name="hello_blank_fragment">مرحبا شظية فارغة</string>
+    <string name="str_rate_feedback_title">أرسل لنا بعض الملاحظات!</string>
+    <string name="str_rate_feedback_description">وجدت خطأ؟ هل لديك اقتراح؟ املأ النموذج أدناه وسنلقي نظرة!</string>
+    <string name="str_rate_feedback_content_hint">أدخل ملاحظاتك هنا! (min ٪ 1 $ d أحرف)</string>
+    <string name="str_rate_upload_photos">تحميل الصور</string>
+    <string name="str_rate_submit">يُقدِّم</string>
+    <string name="video_effect">تأثير الفيديو</string>
+    <string name="my_recordings">تسجيلاتي</string>
+    <string name="preview_video">معاينة الفيديو</string>
+    <string name="audio_effect">تأثير الصوت</string>
+    <string name="applying_effect">تأثير التوفيق</string>
+    <string name="apply_process_desc">يتطلب التطبيق (5-20) S للمعالجة.\nيرجى البقاء في التطبيق!</string>
+    <string name="preparing_data">إعداد البيانات ...</string>
+    <string name="we_can_not_play_this_file">لا يمكننا تشغيل هذا الملف</string>
+    <string name="title_noti_hide_app_no_finish_audio">لديك صوت غير مكتمل</string>
+    <string name="check_now">انقر لرؤية المزيد</string>
+    <string name="no_recording_select_file">سيتم عرض التسجيل الخاص بك هنا</string>
+
+    <array name="feedback_suggestions">
+        <item>Crashes &amp; Bugs</item>
+        <item>Error feature</item>
+        <item>Too many ads</item>
+        <item>Other</item>
+    </array>
+
+    <string name="txt_content_premium_new">سيتم فرض رسوم على حسابك في غضون 24 ساعة قبل نهاية الفترة الحالية. يمكنك إدارة أو إلغاء اشتراكك في أي وقت في إعدادات حساب Google Play</string>
+    <string name="txt_price_month">٪ s/شهر</string>
+    <string name="txt_price_year">٪ s/السنة</string>
+    <string name="txt_content_price_week">٪ s/الأسبوع</string>
+    <string name="txt_monthly_plan">خطة شهرية</string>
+    <string name="txt_yearly_plan">الخطة السنوية</string>
+    <string name="txt_weekly_plan">الخطة الأسبوعية</string>
+    <string name="txt_monthly">شهريا</string>
+    <string name="txt_yearly">سنوي</string>
+    <string name="txt_weekly">أسبوعي</string>
+    <string name="txt_subscribe_now">اشترك الآن</string>
+    <string name="audio_recorder">مسجل الصوت</string>
+    <string name="this_action_can_contain_ads">يمكن أن يحتوي هذا الإجراء على إعلانات</string>
+    <string name="are_you_sure">هل أنت متأكد؟</string>
+    <string name="the_data_will_be_unrecorable">لن تكون البيانات غير قابلة للاسترداد بعد الحذف.</string>
+    <string name="discard">ينبذ</string>
+    <string name="cancel_applying_effect">سيتجاهل هذا الإجراء جميع التغييرات التي تم إجراؤها على الملف</string>
+
+    <string name="easy_to_record">سهل التسجيل</string>
+    <string name="subtitle_intro_1">تطبيق مسجل الهاتف هذا بسيط للغاية وسهل تسجيل أي صوت</string>
+    <string name="next">التالي</string>
+    <string name="swipe_to_next">انقلب إلى التالي</string>
+
+    <string name="subtitle_intro_2">تحويل الصوت بدقة إلى نص بأكثر من 125 لغة.</string>
+
+    <string name="voice_effects">الآثار الصوتية</string>
+    <string name="subtitle_intro_3">عزز تسجيل الصوت الخاص بك مع تأثيرات مثيرة باستخدام علامة تبويب بسيطة.</string>
+    <string name="get_started">ابدأ</string>
+
+</resources>

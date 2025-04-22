@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Grabadora de voz</string>
+    <string name="record_and_change_effect">Efecto de registro y cambio</string>
+    <string name="text_speech_to_text">Discurso a texto</string>
+    <string name="text_sound_effect">Efecto de sonido</string>
+    <string name="text_soon">Pronto</string>
+    <string name="voice_recorder">Grabadora de voz</string>
+    <string name="text_my_recording">Mi grabación</string>
+    <string name="see_all">Ver todo</string>
+    <string name="select_file">Seleccionar archivo</string>
+    <string name="audio_tab">Audio</string>
+    <string name="video_tab">Video</string>
+    <string name="no_recording">Sin grabación</string>
+    <string name="no_data">Sin datos</string>
+    <color name="color_adb2c0">#adb2c0</color>
+    <string name="start_recorder">Recordadora de inicio</string>
+
+    <string name="dialog_message_allow_access_music_audio">Permitir que la aplicación acceda<b> Música y audio</b> Para guardar su grabación.</string>
+    <string name="dialog_message_read_video_permission">Permitir que la aplicación acceda<b> Video</b> para mostrar y aplicar efecto.</string>
+    <string name="dialog_message_notification_permission">Habilitar la aplicación<b> Notificación</b> Para la grabación continua mientras la aplicación está cerrada.</string>
+
+    <string name="confirm">Permitir</string>
+    <string name="decline">No permiso</string>
+    <string name="done">Hecho</string>
+    <string name="cancel">Cancelar</string>
+    <string name="play_or_pause_recording">jugar o pausar grabación</string>
+    <string name="tap_to_start">Toque para comenzar</string>
+    <string name="language">Idioma</string>
+    <string name="language_china">中国人</string>
+    <string name="language_english">Inglés</string>
+    <string name="language_filipina">Filipina</string>
+    <string name="language_french">La Francia</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_indo">Bahasa Indonesia</string>
+    <string name="language_italia">Italiano</string>
+    <string name="language_japan">日本</string>
+    <string name="language_korean">한국인</string>
+    <string name="language_malaysia">Malasia</string>
+    <string name="language_nederlands">Nederlands</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_rusian">Русий</string>
+    <string name="language_spanish">Español</string>
+    <string name="languages">Lenguas</string>
+    <string name="text_description_speech_to_text">El texto extraído del archivo de audio aparece aquí.</string>
+    <string name="speech_to_text">Discurso a texto</string>
+    <string name="text_apply">Aplicar</string>
+    <string name="text_select_language">Lenguaje seleccionado</string>
+    <string name="dialog_message_microphone_permission">No puede grabar si no se otorga acceso al micrófono. Por favor otorgue este permiso.</string>
+    <string name="not_allow">No permiso</string>
+    <string name="allow">Permitir</string>
+    <string name="speech_not_supported">El reconocimiento de voz no es compatible con este dispositivo</string>
+    <string name="speech_prompt">Discurso a texto</string>
+    <string name="delete_record">Eliminar registro</string>
+    <string name="delete_record_description">Todos sus datos de grabación se perderán</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="text_preview">Avance</string>
+    <string name="save">Ahorrar</string>
+    <string name="copy_successful">Copiar exitoso</string>
+    <string name="something_went_wrong">Algo salió mal</string>
+    <string name="rename">Rebautizar</string>
+    <string name="empty_file_name">Nombre de archivo vacío</string>
+    <string name="exit_the_feature">Saliendo de la función\?</string>
+    <string name="close_record_description">La grabación se perderá por completo cuando salga de la función. ¿Está seguro\?</string>
+    <string name="exit">Salida</string>
+    <string name="add_effect">Agregar efecto</string>
+    <string name="recording">Grabación</string>
+    <string name="share">Compartir</string>
+    <string name="create_new_up">Crear nuevo</string>
+    <string name="save_success_title">Guardar exitoso</string>
+    <string name="preview_audio">Audio de vista previa</string>
+    <string name="cut_file">Archivo de corte</string>
+    <string name="delete">Borrar</string>
+    <string name="settings">Ajustes</string>
+    <string name="premium">De primera calidad</string>
+    <string name="unlock_all_sound_effects">Desbloquear todos los efectos de sonido</string>
+    <string name="remove_all_ads">Eliminar todos los anuncios</string>
+    <string name="save_files_in_hd_quality">Guardar archivos en calidad HD</string>
+    <string name="update_to_premium">Actualización de Premium</string>
+    <string name="cancel_subscription">Cancelar suscripción</string>
+    <string name="recording_format">Formato de grabación</string>
+    <string name="share_app">Compartir la aplicación</string>
+    <string name="privacy_policy">Política</string>
+    <string name="feedback">Comentario</string>
+    <string name="about">Acerca de</string>
+    <string name="recording_format_pcm">PCM (WAV) - Alta calidad</string>
+    <string name="pcm_short">wav</string>
+    <string name="mp3_short">mp3</string>
+    <string name="recording_format_mp3">Mp3 - buena calidad</string>
+    <string name="amr_short">amr</string>
+    <string name="recording_format_amr">AMR (AMR) - Archivos pequeños</string>
+    <string name="aac_short">m4a</string>
+    <string name="recording_format_aac">AAC (M4A) - buena calidad</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="str_rate_feedback_title">¡Envíenos algunos comentarios!</string>
+    <string name="str_rate_feedback_description">Encontrado un error\? ¿Tiene una sugerencia\? ¡Complete el formulario a continuación y echaremos un vistazo!</string>
+    <string name="str_rate_feedback_content_hint">¡Ingrese sus comentarios aquí! (min %1 $ d caracteres)</string>
+    <string name="str_rate_upload_photos">Subir fotos</string>
+    <string name="str_rate_submit">Entregar</string>
+    <string name="video_effect">Efecto de video</string>
+    <string name="my_recordings">Mis grabaciones</string>
+    <string name="preview_video">Video de vista previa</string>
+    <string name="audio_effect">Efecto de audio</string>
+    <string name="applying_effect">Efecto de aplicación</string>
+    <string name="apply_process_desc">La aplicación requiere (5–20) s para procesar.\n¡POR FAVOR, POR FAVOR EN LA APLICACIÓN!</string>
+    <string name="preparing_data">Preparación de datos ...</string>
+    <string name="we_can_not_play_this_file">No podemos jugar este archivo</string>
+    <string name="title_noti_hide_app_no_finish_audio">Tienes un audio inacabado</string>
+    <string name="check_now">Haga clic para ver más</string>
+    <string name="no_recording_select_file">Su grabación se mostrará aquí</string>
+
+    <array name="feedback_suggestions">
+        <item>Crashes &amp; Bugs</item>
+        <item>Error feature</item>
+        <item>Too many ads</item>
+        <item>Other</item>
+    </array>
+
+    <string name="txt_content_premium_new">Su cuenta se cobrará dentro de las 24 horas previas al final del período actual. Puede administrar o cancelar su suscripción en cualquier momento en la configuración de su cuenta de Google Play</string>
+    <string name="txt_price_month">%s/mes</string>
+    <string name="txt_price_year">%s/año</string>
+    <string name="txt_content_price_week">%s/semana</string>
+    <string name="txt_monthly_plan">Plan mensual</string>
+    <string name="txt_yearly_plan">Plan anual</string>
+    <string name="txt_weekly_plan">Plan semanal</string>
+    <string name="txt_monthly">Mensual</string>
+    <string name="txt_yearly">Anual</string>
+    <string name="txt_weekly">Semanalmente</string>
+    <string name="txt_subscribe_now">Suscríbete ahora</string>
+    <string name="audio_recorder">Grabadora de audio</string>
+    <string name="this_action_can_contain_ads">Esta acción puede contener anuncios</string>
+    <string name="are_you_sure">¿Está seguro\?</string>
+    <string name="the_data_will_be_unrecorable">Los datos serán irrecuperables después de la eliminación.</string>
+    <string name="discard">Desechar</string>
+    <string name="cancel_applying_effect">Esta acción descartará todos los cambios realizados en el archivo</string>
+
+    <string name="easy_to_record">Fácil de grabar</string>
+    <string name="subtitle_intro_1">Esta aplicación de grabadora de teléfono es tan simple y fácil de grabar cualquier sonido</string>
+    <string name="next">Próximo</string>
+    <string name="swipe_to_next">Slipe a Siguiente</string>
+
+    <string name="subtitle_intro_2">Convierta con precisión la voz en texto en más de 125 idiomas.</string>
+
+    <string name="voice_effects">Efectos de voz</string>
+    <string name="subtitle_intro_3">Mejore su grabación de audio con efectos emocionantes utilizando una prensa de pestaña simple.</string>
+    <string name="get_started">Empezar</string>
+
+</resources>

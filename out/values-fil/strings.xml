@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Voice Recorder</string>
+    <string name="record_and_change_effect">Record at Pagbabago ng Epekto</string>
+    <string name="text_speech_to_text">Pagsasalita sa teksto</string>
+    <string name="text_sound_effect">Epekto ng tunog</string>
+    <string name="text_soon">Hindi nagtagal</string>
+    <string name="voice_recorder">Voice Recorder</string>
+    <string name="text_my_recording">Ang recording ko</string>
+    <string name="see_all">Tingnan ang lahat</string>
+    <string name="select_file">Piliin ang File</string>
+    <string name="audio_tab">Audio</string>
+    <string name="video_tab">Video</string>
+    <string name="no_recording">Walang pag -record</string>
+    <string name="no_data">Walang data</string>
+    <color name="color_adb2c0">#adb2c0</color>
+    <string name="start_recorder">Simulan ang Recorder</string>
+
+    <string name="dialog_message_allow_access_music_audio">Payagan ang app na mag -access<b> Musika at audio</b> Upang mai -save ang iyong pag -record.</string>
+    <string name="dialog_message_read_video_permission">Payagan ang app na mag -access<b> Video</b> Upang ipakita at mag -apply ng epekto.</string>
+    <string name="dialog_message_notification_permission">Paganahin ang app<b> Abiso</b> Para sa patuloy na pag -record habang ang app ay sarado.</string>
+
+    <string name="confirm">Payagan</string>
+    <string name="decline">Huwag payagan</string>
+    <string name="done">Tapos na</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="play_or_pause_recording">Maglaro o i -pause ang pag -record</string>
+    <string name="tap_to_start">Mag -tap upang magsimula</string>
+    <string name="language">Wika</string>
+    <string name="language_china">中国人</string>
+    <string name="language_english">Ingles</string>
+    <string name="language_filipina">Filipina</string>
+    <string name="language_french">La France</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_indo">Bahasa Indonesia</string>
+    <string name="language_italia">Italiano</string>
+    <string name="language_japan">日本</string>
+    <string name="language_korean">한국인</string>
+    <string name="language_malaysia">Malaysia</string>
+    <string name="language_nederlands">Nederlands</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_rusian">Русский</string>
+    <string name="language_spanish">Español</string>
+    <string name="languages">Mga Wika</string>
+    <string name="text_description_speech_to_text">Ang nakuha na teksto mula sa audio file ay lilitaw dito.</string>
+    <string name="speech_to_text">Pagsasalita sa teksto</string>
+    <string name="text_apply">Mag -apply</string>
+    <string name="text_select_language">Piliin ang Wika</string>
+    <string name="dialog_message_microphone_permission">Hindi mo mai -record kung hindi ipinagkaloob ang pag -access sa mikropono. Mangyaring bigyan ang pahintulot na ito.</string>
+    <string name="not_allow">Huwag payagan</string>
+    <string name="allow">Payagan</string>
+    <string name="speech_not_supported">Ang pagkilala sa pagsasalita ay hindi suportado sa aparatong ito</string>
+    <string name="speech_prompt">Pagsasalita sa teksto</string>
+    <string name="delete_record">Tanggalin ang tala</string>
+    <string name="delete_record_description">Ang lahat ng iyong data sa pag -record ay mawawala</string>
+    <string name="ok">Ok</string>
+    <string name="text_preview">Preview</string>
+    <string name="save">I -save</string>
+    <string name="copy_successful">Kopyahin ang matagumpay</string>
+    <string name="something_went_wrong">May mali</string>
+    <string name="rename">Palitan ang pangalan</string>
+    <string name="empty_file_name">Walang laman na pangalan ng file</string>
+    <string name="exit_the_feature">Paglabas ng tampok\?</string>
+    <string name="close_record_description">Ang pag -record ay ganap na mawawala kapag lumabas ka sa tampok na ito. Sigurado ka ba\?</string>
+    <string name="exit">Lumabas</string>
+    <string name="add_effect">Magdagdag ng epekto</string>
+    <string name="recording">Pag -record</string>
+    <string name="share">Ibahagi</string>
+    <string name="create_new_up">Lumikha ng Bago</string>
+    <string name="save_success_title">Makatipid ng matagumpay</string>
+    <string name="preview_audio">Preview Audio</string>
+    <string name="cut_file">Gupitin ang file</string>
+    <string name="delete">Tanggalin</string>
+    <string name="settings">Mga setting</string>
+    <string name="premium">Premium</string>
+    <string name="unlock_all_sound_effects">I -unlock ang lahat ng mga sound effects</string>
+    <string name="remove_all_ads">Alisin ang lahat ng mga ad</string>
+    <string name="save_files_in_hd_quality">I -save ang mga file sa kalidad ng HD</string>
+    <string name="update_to_premium">I -update sa Premium</string>
+    <string name="cancel_subscription">Kanselahin ang subscription</string>
+    <string name="recording_format">Pag -record ng format</string>
+    <string name="share_app">Ibahagi ang app</string>
+    <string name="privacy_policy">Patakaran</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">Tungkol sa</string>
+    <string name="recording_format_pcm">PCM (WAV) - Mataas na kalidad</string>
+    <string name="pcm_short">Wav</string>
+    <string name="mp3_short">mp3</string>
+    <string name="recording_format_mp3">Mp3 - magandang kalidad</string>
+    <string name="amr_short">Amr</string>
+    <string name="recording_format_amr">AMR (AMR) - Maliit na mga file</string>
+    <string name="aac_short">M4A</string>
+    <string name="recording_format_aac">AAC (M4A) - Magandang kalidad</string>
+    <string name="hello_blank_fragment">Kumusta blangko fragment</string>
+    <string name="str_rate_feedback_title">Magpadala sa amin ng ilang puna!</string>
+    <string name="str_rate_feedback_description">Natagpuan ang isang bug\? May mungkahi\? Punan ang form sa ibaba at titingnan natin!</string>
+    <string name="str_rate_feedback_content_hint">Ipasok ang iyong puna dito! (min %1 $ D character)</string>
+    <string name="str_rate_upload_photos">Mag -upload ng mga larawan</string>
+    <string name="str_rate_submit">Isumite</string>
+    <string name="video_effect">Epekto ng video</string>
+    <string name="my_recordings">Ang aking pag -record</string>
+    <string name="preview_video">I -preview ang video</string>
+    <string name="audio_effect">Epekto ng audio</string>
+    <string name="applying_effect">Epekto ng Appying</string>
+    <string name="apply_process_desc">Ang app ay nangangailangan ng (5–20) s upang maproseso.\nMangyaring manatili sa app!</string>
+    <string name="preparing_data">Paghahanda ng data ...</string>
+    <string name="we_can_not_play_this_file">Hindi namin maaaring i -play ang file na ito</string>
+    <string name="title_noti_hide_app_no_finish_audio">Mayroon kang isang hindi natapos na audio</string>
+    <string name="check_now">Mag -click upang makita ang higit pa</string>
+    <string name="no_recording_select_file">Ang iyong pag -record ay ipapakita dito</string>
+
+    <array name="feedback_suggestions">
+        <item>Crashes &amp; Bugs</item>
+        <item>Error feature</item>
+        <item>Too many ads</item>
+        <item>Other</item>
+    </array>
+
+    <string name="txt_content_premium_new">Ang iyong account ay sisingilin sa loob ng 24 na oras bago ang pagtatapos ng kasalukuyang panahon. Maaari mong pamahalaan o kanselahin ang iyong subscription sa anumang oras sa iyong mga setting ng Google Play Account</string>
+    <string name="txt_price_month">%s/buwan</string>
+    <string name="txt_price_year">%s/taon</string>
+    <string name="txt_content_price_week">%s/linggo</string>
+    <string name="txt_monthly_plan">Buwanang plano</string>
+    <string name="txt_yearly_plan">Taunang plano</string>
+    <string name="txt_weekly_plan">Lingguhang plano</string>
+    <string name="txt_monthly">Buwanang</string>
+    <string name="txt_yearly">Taun -taon</string>
+    <string name="txt_weekly">Lingguhan</string>
+    <string name="txt_subscribe_now">Mag -subscribe ngayon</string>
+    <string name="audio_recorder">Audio Recorder</string>
+    <string name="this_action_can_contain_ads">Ang pagkilos na ito ay maaaring maglaman ng mga ad</string>
+    <string name="are_you_sure">Sigurado ka ba\?</string>
+    <string name="the_data_will_be_unrecorable">Ang data ay hindi mababawi pagkatapos ng pagtanggal.</string>
+    <string name="discard">Itapon</string>
+    <string name="cancel_applying_effect">Ang pagkilos na ito ay itatapon ang lahat ng mga pagbabago na ginawa sa file</string>
+
+    <string name="easy_to_record">Madaling maitala</string>
+    <string name="subtitle_intro_1">Ang app ng recorder ng telepono na ito ay napaka -simple at madaling i -record ang anumang tunog</string>
+    <string name="next">Susunod</string>
+    <string name="swipe_to_next">Mag -swipe sa susunod</string>
+
+    <string name="subtitle_intro_2">Tumpak na i -convert ang boses upang mag -text sa higit sa 125 wika.</string>
+
+    <string name="voice_effects">Mga epekto sa boses</string>
+    <string name="subtitle_intro_3">Pagandahin ang iyong pag -record ng audio na may mga kapana -panabik na epekto gamit ang isang simpleng pindutin ng tab.</string>
+    <string name="get_started">Magsimula</string>
+
+</resources>
