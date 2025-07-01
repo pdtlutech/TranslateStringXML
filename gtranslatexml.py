@@ -181,13 +181,14 @@ async def translate(to_translate, to_language="auto", language="auto"):
             if excepted:
                 print("Success")
             return result
-        except:
+        except Exception as e:
             if excepted:
-                print("Exception Again")
+                print("Exception Again:", e)
             else:
-                print("Exception")
-            excepted = True
-
+                print("Exception: to_translate", to_translate)
+                print("Exception: to_language", to_language)
+                print("Exception: language", language)
+                print("---------------")
 
 async def translate_internal(to_translate, to_language="auto", language="auto"):
     to_translate = serialize_text(to_translate, language)
@@ -246,11 +247,12 @@ import asyncio
 import urllib.parse
 import aiohttp
 
+# id la indonesia
+
 # OUTPUTlangs = ["af","sq","am","ar","hy","az","eu","be","bn","bs","bg","ca","ceb","ny","zh-CN","co","hr","cs","da","nl","en","eo","et","tl","fi","fr","fy","gl","ka","de","el","gu","ht","ha","haw","iw","hi","hmn","hu","is","ig","id","ga","it","ja","jw","kn","kk","km","rw","ko","ku","ky","lo","la","lv","lt","lb","mk","mg","ms","ml","mt","mi","mr","mn","my","ne","no","or","ps","fa","pl","pt","pa","ro","ru","sm","gd","sr","st","sn","sd","si","sk","sl","so","es","su","sw","sv","tg","ta","tt","te","th","tr","tk","uk","ur","ug","uz","vi","cy","xh","yi","yo","zu"]
 INFILE = "strings.xml"
 INPUTLANGUAGE = "en"
-OUTPUTlangs = ["ar", "de", "es", "fil", "fr", "hi", "in", "it", "ja", "ko", "pt", "pl", "tr",
-               "vi", "zh"]
+OUTPUTlangs = [ "ar" , "de" , "en" , "es" , "fr" , "hi" , "in" , "it" , "ja" , "pt" , "tr" , "vi"]
 if OUTPUTlangs.__contains__(INPUTLANGUAGE):
     OUTPUTlangs.remove(INPUTLANGUAGE)
 
@@ -271,7 +273,7 @@ def serialize_text(text, language):
     text = text.replace("\\n", "\n")  # Replace "\" "n" with next line character
     text = text.replace("\\'", "'")  # Replace \' with '
     text = text.replace("\\@", "@")  # Replace \@ with @
-    text = text.replace("\\?", "?")  # Replace \? with ?
+    text = text.replace("?", "?")  # Replace ? with ?
     text = text.replace("\\\"", "\"")  # Replace \" with "
 
     text = urllib.parse.quote_plus(text)  # Encode final string
@@ -285,7 +287,7 @@ def deserialize_text(text):
     text = text.replace("\n", "\\n")  # Replace next line with \n
     # text = text.replace("'", "\\'")     # Replace ' with \'
     text = text.replace("@", "\\@")  # Replace @ with \@
-    text = text.replace("?", "\\?")  # Replace ? with \?
+    text = text.replace("?", "?")  # Replace ? with ?
     text = text.replace("\"", "\\\"")  # Replace " with \"
 
     return text
@@ -317,8 +319,10 @@ async def perform_translate(OUTPUTLANGUAGE):
             # if string was broken down due to HTML tags, reassemble it
             if len(root[i]) != 0:
                 for element in range(len(root[i])):
-                    root[i][element].text = " " + await translate(root[i][element].text, OUTPUTLANGUAGE, INPUTLANGUAGE)
-                    root[i][element].tail = " " + await translate(root[i][element].tail, OUTPUTLANGUAGE, INPUTLANGUAGE)
+                    if root[i][element].text:
+                        root[i][element].text = " " + await translate(root[i][element].text, OUTPUTLANGUAGE, INPUTLANGUAGE)
+                    if root[i][element].tail:
+                        root[i][element].tail = " " + await translate(root[i][element].tail, OUTPUTLANGUAGE, INPUTLANGUAGE)
 
         if (root[i].tag == 'string-array'):
             for j in range(len(root[i])):
